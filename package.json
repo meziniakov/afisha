@@ -6,9 +6,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "material-icons": "^1.11.0",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "sass": "^1.52.1",
+    "scss": "^0.2.4",
     "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
   }
 }
