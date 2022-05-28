@@ -5,15 +5,15 @@ import styles from "./Footer.module.scss";
 const navItem = [
   {
     icon: "home",
-    link: "/person",
-  },
-  {
-    icon: "explore",
     link: "/",
   },
   {
+    icon: "explore",
+    link: "/explore",
+  },
+  {
     icon: "place",
-    link: "/place",
+    link: "/events/kyoto",
   },
   {
     icon: "person",
