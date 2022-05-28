@@ -1,6 +1,7 @@
+import { NextApiResponse } from "next";
 import { events } from "../../public/moscow2";
 
-export default function eventHandler({ query }, res) {
+export default function eventHandler({ query }, res: NextApiResponse) {
   // console.log(Object.keys(req.query).length);
   if (Object.keys(query).length === 0) return res.status(200).json(events);
 
