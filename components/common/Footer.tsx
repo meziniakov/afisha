@@ -2,7 +2,12 @@ import { useRouter } from "next/router";
 import React from "react";
 import styles from "./Footer.module.scss";
 
-const navItem = [
+type TypeNavItem = {
+  icon: string;
+  link: string;
+};
+
+const navItem: TypeNavItem[] = [
   {
     icon: "home",
     link: "/",
@@ -21,7 +26,7 @@ const navItem = [
   },
 ];
 
-export const Footer = () => {
+const Footer = () => {
   const { push, pathname } = useRouter();
   return (
     <footer className={styles.footer}>
@@ -39,3 +44,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
+export default Footer;

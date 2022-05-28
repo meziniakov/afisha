@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import { Footer } from "../components/common/Footer";
+import Footer from "../components/common/Footer";
 import Layout from "../components/common/Layout";
 import Person from "../components/Person";
 
